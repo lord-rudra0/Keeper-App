@@ -24,3 +24,5 @@ const notes = [
       "What's the difference between hardware and software? You can hit your hardware with a hammer, but you can only curse at your software."
   }
 ];
+
+export default notes;
