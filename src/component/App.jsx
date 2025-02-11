@@ -7,14 +7,14 @@ import notes from "../notes.js";
 
 
 
-function App()
-{
+function App() {
     return (<div><Header />
-         {/* <Note /> */}
-         {notes.map((note)=><Note key={note.key}
-         title={note.title}
-         content={note.content} />
-         )}
+        {notes.map((note) => <Note
+            key={note.key}
+            id={note.key}
+            title={note.title}
+            content={note.content} />
+        )}
         <Footer />
     </div>);
 }
