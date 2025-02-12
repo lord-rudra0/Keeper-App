@@ -9,11 +9,13 @@ import CreateArea from "./CreateArea.jsx";
 
 
 function App() {
+
+    function addNote(note) {
+        console.log(note)
+    }
+
     return (<div><Header />
-        <CreateArea
-            takeTitle={takeTitle}
-            takeContent={takeContent}
-        />
+        <CreateArea onAdd={addNote} />
         {notes.map((note) => <Note
             key={note.key}
             id={note.key}

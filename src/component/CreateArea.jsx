@@ -5,11 +5,21 @@ function CreateArea(props) {
   const [note, setNote] = useState({ takeTitle: "", takeContent: "" });
 
   function handleChange(e) {
-    setNote(e.target.value);
+    const { name, value } = e.target;
+    setNote((prevNotes) => {
+      return {
+        ...prevNotes,
+        [name]: value
+      }
+    });
 
   }
 
+  function submitNote(e) {
 
+    props.onAdd();
+    e.preventDefault();
+  }
   return (
     <div>
       <form>
@@ -21,7 +31,7 @@ function CreateArea(props) {
           value={note.takeContent} onChange={handleChange} />
         <div>{note.takeContent}</div>
         <div>{note.takeContent}</div>
-        <button>Add</button>
+        <button onClick={submitNote}>Add</button>
       </form>
     </div>
   );
