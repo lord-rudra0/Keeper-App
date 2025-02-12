@@ -4,9 +4,6 @@ import Header from "./Header.jsx"
 import Note from "./Note.jsx"
 import notes from "../notes.js";
 
-
-
-
 function App() {
     return (<div><Header />
         {notes.map((note) => <Note
