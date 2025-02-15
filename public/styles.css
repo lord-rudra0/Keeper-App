@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  background-color: #6041cf;
+  background-color: #f5ba13;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -72,7 +72,7 @@ footer p {
   outline: none;
 }
 
-form {
+form.create-note {
   position: relative;
   width: 480px;
   margin: 30px auto 20px auto;
@@ -82,8 +82,8 @@ form {
   box-shadow: 0 1px 5px rgb(138, 137, 137);
 }
 
-form input,
-form textarea {
+form.create-note input,
+form.create-note textarea {
   width: 100%;
   border: none;
   padding: 4px;
@@ -93,7 +93,7 @@ form textarea {
   resize: none;
 }
 
-form button {
+form.create-note button {
   position: absolute;
   right: 18px;
   bottom: -18px;
