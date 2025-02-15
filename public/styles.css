@@ -9,12 +9,14 @@ html {
 }
 
 body {
-  background: #ade8f4;
+  background-color: #caf0f8;
+  background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   padding: 0 16px;
 }
 
 header {
-  background-color: #0077b6;
+  background-color: #48cae4;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -48,12 +50,14 @@ footer p {
   float: left;
 }
 
+
+
 .note h1 {
   font-size: 1.1em;
   margin-bottom: 6px;
 }
 
-textarea {}
+
 
 .note p {
   font-size: 1.1em;
