@@ -9,12 +9,12 @@ html {
 }
 
 body {
-  background: #eee;
+  background: #ade8f4;
   padding: 0 16px;
 }
 
 header {
-  background-color: #f5ba13;
+  background-color: #0077b6;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -35,11 +35,11 @@ footer {
 }
 
 footer p {
-  color: #ccc;
+  color: #ee8888;
 }
 
 .note {
-  background: #fff;
+  background: #caf0f8;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
   padding: 10px;
@@ -52,6 +52,8 @@ footer p {
   font-size: 1.1em;
   margin-bottom: 6px;
 }
+
+textarea {}
 
 .note p {
   font-size: 1.1em;
@@ -76,7 +78,7 @@ form.create-note {
   position: relative;
   width: 480px;
   margin: 30px auto 20px auto;
-  background: #fff;
+  background: #48cae4;
   padding: 15px;
   border-radius: 7px;
   box-shadow: 0 1px 5px rgb(138, 137, 137);
@@ -91,6 +93,7 @@ form.create-note textarea {
   font-size: 1.2em;
   font-family: inherit;
   resize: none;
+  background-color: #48cae4;
 }
 
 form.create-note button {
